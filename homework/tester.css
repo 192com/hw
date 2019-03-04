@@ -1,0 +1,37 @@
+.container {
+    width: 1100px;
+    border: 1px solid black;
+    height: 100px;
+    margin: auto;
+
+}
+.header {
+    background-color:red;
+    padding: 10px;
+}
+.main {
+    background-color: yellow;
+    height: 500px;
+}
+.footer {
+    background-color: rgb(28, 226, 10);
+    height: 100px;
+}
+.header div {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+   
+}
+.header .menu {
+    width: 66%;
+    padding: 11px;
+    text-align: right
+}
+.header .logo  {
+    width: 30%;
+}
+.header .logo div {
+    border: 1px solid black;
+    border-radius: 5px
+}

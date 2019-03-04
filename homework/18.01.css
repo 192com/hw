@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rN0W64K4ipau8gxv/gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_b4tps759fe_thumbnail-full01.png)
+}
+header {
+    margin-top: 200px;
+}
+.dws-menu {
+    margin: 0;
+    padding: 0;
+
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: #eeccee;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: slateblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid blue 
+}
+.dws-menu >ul li > a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu > ul li:first-child{
+    border-left: 1px solid brown;
+}
+.dws-menu > ul li:last-child{
+    border-right: 1px solid blue;
+}
+.dws-menu li a:hover{
+    background: gold;
+    color: black;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+.dws-menu li > ul li {
+    border: 1px solid burlywood;
+}
+.dws-menu li > ul ul {
+    position: absolute;
+    right: -150px;
+    top: 0%;
+}
+.dws-menu li:hover > ul {
+    display: block;
+}

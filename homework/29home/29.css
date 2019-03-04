@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100px;
+    height: 100px;
+
+}
+body {
+    background-color: blanchedalmond;
+}
+
+header #logo {
+    color: aliceblue;
+
+}
+
+@media (min-width: 701px) {
+#logo{
+    float: left;
+    width: 30%
+}
+#about {
+float: right;
+width: 67%;
+}
+}
+
+
+
+@media (max-width: 700px) {
+    #logo {
+        margin-top: 15px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    #about {
+        float: left;
+        width: 100%;
+    }
+}
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0,5%;
+    background: transparent;
+    float: left;
+    position: fixed;
+}
+header #logo {
+    color: cadetblue;
+    cursor: pointer;
+}
+header #logo span {
+    font-size: 1.9em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
